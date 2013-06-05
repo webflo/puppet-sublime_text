@@ -1,4 +1,4 @@
-# Sublime Text 2 Puppet Module for Boxen
+# Sublime Text Puppet Module for Boxen
 
 [![Build Status](https://travis-ci.org/boxen/puppet-sublime_text.png?branch=master)](https://travis-ci.org/boxen/puppet-sublime_text)
 
