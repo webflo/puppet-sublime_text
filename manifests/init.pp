@@ -4,7 +4,7 @@
 #
 #     include sublime_text
 class sublime_text {
-  package { 'SublimeText':
+  package { 'Sublime Text':
     provider => 'appdmg',
     source   => 'http://c758482.r82.cf2.rackcdn.com/Sublime%20Text%20Build%203033.dmg';
   }
@@ -13,6 +13,6 @@ class sublime_text {
     ensure  => link,
     target  => '/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl',
     mode    => '0755',
-    require => Package['SublimeText'],
+    require => Package['Sublime Text'],
   }
 }
