@@ -2,9 +2,9 @@
 #
 # Examples
 #
-#   include sublime_text_2::config
-class sublime_text_2::config {
-  $dir        = "/Users/${::luser}/Library/Application Support/Sublime Text 2"
+#   include sublime_text::config
+class sublime_text::config {
+  $dir        = "/Users/${::luser}/Library/Application Support/Sublime Text"
   $packagedir = "${dir}/Packages"
 
   file { [$dir, $packagedir]:
